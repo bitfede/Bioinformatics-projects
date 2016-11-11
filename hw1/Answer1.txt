@@ -1,0 +1,8 @@
+xxcwc `grep -l int *`
+
+   according to the man pages ` grep -l int *` follows this pattern `grep OPTION PATTERN FILE` and therefore will print to stdout the file names (instead of the normal output which is printing the actual lines where the pattern is found) from which the matching line of "int" (the pattern) in all files (the asterisk) was found.
+Every line of the output of the grep command is then put as an argument for the wc command, which prints newline, word, and byte counts for each file.
+
+
+grep -l int * | wc
+     here the same grep command as before is ran, but the difference is that the output of grep is piped as a whole file into the wc command, which will output back to stdout the number of newlines, words and bytes for the two filenames together as if they were a file.

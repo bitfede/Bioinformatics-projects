@@ -1,0 +1,5 @@
+The pipeline command is this:
+ls -A | wc -w
+
+according to the manpage of ls, ls -A will list visible and hidden directories except . and .. 
+wc -w will only output the number of words pipelined by the previous ls command. It corresponds to how many files are in the current directory.

@@ -1,0 +1,4 @@
+tail test4.txt | head -8 | grep -E '[C][Ss][Cc][1-9]{3}\b'
+
+tail will output lines from 5 to 14. These lines will be piped into `head -8` which  will print only 8 lines starting from 5. The output of these two commands together will be lines from 5 to 12.
+Among these lines we need to extract lines containing computer science course codes as distinct words. To do this we will pipeline the output of head and tail into grep, which will use the REGEX '[C][Ss][Cc][1-9]{3}\b' to extract the desired pattern. The pattern means [Any character 'C'][Any character between lower and uppercase 'S'[Any character between lowecase and uppercase 'C'][Any number between 1 and 9]{repeat the last pattern in square brackets 3 times} and then the \b is used to indicate a word break, and it is needed in order to not display line 8.

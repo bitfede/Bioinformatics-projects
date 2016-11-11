@@ -1,0 +1,22 @@
+#			  					 --- REASONS FOR MY CHOICES ---
+#
+# DATABASE: 
+#
+#
+# BLAST PROGRAM:	 blastp because it does Protein Query Searching
+#						     	 a Protein Database
+#								 
+#	DATABASE: 			 "refseq_protein" because according to
+#   							 https://www.ncbi.nlm.nih.gov/guide/proteins/
+#									 RefSeq is indicated as having data for selected
+#                  organisms (such as human, mouse and rat) are available
+#										
+# SUBST. MATRIX:   I picked BLOSUM45 because human and mouse are divergente evolutionary
+#									 and because BLOSUM is based on local aligments
+#
+# PARAMETERS: 		 I used the additional parameters:
+#					         - format_type="XML" so that the output is in
+#									   XML format and can be parsed by NCBIXML easily
+#									 - expect=0.001 so that only the hsp with
+#									   expected values under 0.001 are considered
+#

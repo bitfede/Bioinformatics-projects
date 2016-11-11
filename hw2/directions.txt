@@ -1,0 +1,22 @@
+In the file human.fa you will find 13 human protein sequences in fasta format. In particular, in such a file each sequence entry starts with '>' telling you information about the following sequence that is formated by strings of 60 characters. Currently each entry is annoated by its gene name.
+
+In the file protein-coding_gene.txt you will find more information about human genes and proteins. In particular, the file contains the information about gene names, their synonyms and gene location.
+
+Write a python code that:
+
+allows you to parse the information of the human.fa.
+You need to get the information of synonyms and location by parsing the corresponding information from protein-coding_gene.txt.
+As output, I want you to write a separate fasta file. In particular, the information of each entry should be formatted by writing > gene name|synonyms (separated by commas)|gene location.
+Sequence information needs to be exactly like in human.fa (meaning sequence needs to be in blocks of 60 characters).
+You need to write a python code to carry out this task. It is up to you if you want the code from scratch or use biopython functions.
+As a deliverable you need to hand in your Python code.
+
+As a second task, set up a BLAST search. Using the sequences in human.fa find the most homologous sequences to each human sequence in mouse. You need to:
+set up a Python code that parses the human sequences,
+iterates through each sequence,
+searches a database with BLAST and
+prints the human sequence ID, the mouse ID of the most similar homolog and the alignment, E-value and bitscore to a file of your choice.
+Furthermore, you need to explain the choice of the (i) database you want to search, (ii) blast program, (iii) substitution matrix and (iv) choice of parameters.
+As deliverables you need to hand in the python code, results file and description of choices
+
+The assignment is due by midnight Friday Oct. 11th.

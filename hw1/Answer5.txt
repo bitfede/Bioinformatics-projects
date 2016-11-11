@@ -1,0 +1,5 @@
+ls | grep -E "^[A-Za-z]*[1-9]*([.][a-z][A-Za-z])$"
+
+will be the command that takes the output of the ls command (all our files in the pwd) and pipes into grep.
+grep will apply a filter to ls, in fact it will only allow to stdout:
+files that start with any character from the alphabet '^[A-Za-z]' , that contain a digit '*[1-9]*', and end with a period following a lowercase character and lastly one more character '([.][a-z][A-Za-z])$'

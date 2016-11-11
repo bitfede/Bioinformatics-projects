@@ -1,0 +1,17 @@
+//this command will concatenate all the 5 colums of file 1, 2 and 3 into a single temporary file
+
+cat file*.txt > tempfile.txt
+
+//these three commands will extract and isolate columns 1, 2 and 5
+
+cut -f 1 tempfile.txt > col1.txt
+cut -f 2 tempfile.txt > col2.txt
+cut -f 5 tempfile.txt > col5.txt
+
+//paste will put together the columns in the order specified (in my case column 5 then 2 then 1) and redirect stdout into the final file myFile.txt
+
+paste col5.txt col2.txt col1.txt > myFile.txt
+
+//this command is to clean up our present working directory
+
+rm tempfile.txt col*.txt

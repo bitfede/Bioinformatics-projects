@@ -1,0 +1,15 @@
+//this will set permission to execute to others
+chmod o+x IveGotRights
+//this will set permission to execute, read and write to the owner
+chmod u+xrw IveGotRights
+//this will set permission to execute and read to the group
+chmod g+xr IveGotRights
+
+//OR it could have been done with one single command wich is
+
+chmod 751 IveGotRights
+
+// the way I figure out the numbers is by translating the 3 permissions from binary to decimal
+//example: read write and execute is rwx, which is 111 in binary, which is 7 in decimal
+//	   read and execute is r-x, which is 101 in binary, which is 5 in decimal
+//	   execute only us --x, which is 001 in binary, which is 1 in decimal
