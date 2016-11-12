@@ -30,14 +30,14 @@ for gene in record:
 	for alignment in result.alignments:
 		for hsp in alignment.hsps:
 			if "Mus musculus" in alignment.title:  #we are looking for mouse
-				print "HUMAN GENE:     " +  gene.name
-				outputfile.write("HUMAN GENE:     " +  gene.name)
-				print "MOUSE ID:			 " +  alignment.title
-				outputfile.write("MOUSE ID:			 " +  alignment.title)
+				print "HUMAN GENE:     " +  gene.name + "\n"
+				outputfile.write("HUMAN GENE:     " +  gene.name + "\n")
+				print "MOUSE ID:			 " +  alignment.title + "\n"
+				outputfile.write("MOUSE ID:			 " +  alignment.title + "\n")
 
-				print "E-value:        " +  str(hsp.expect)
-				outputfile.write("E-value:        " +  str(hsp.expect))
+				print "E-value:        " +  str(hsp.expect) + "\n"
+				outputfile.write("E-value:        " +  str(hsp.expect) + "\n")
 				print "BITSCORE:       " +  str(hsp.bits)
-				outputfile.write("BITSCORE:       " +  str(hsp.bits))
+				outputfile.write("BITSCORE:       " +  str(hsp.bits) + "\n")
 				outputfile.write("----------------------------------\n")
 				print "-------------------------------------"

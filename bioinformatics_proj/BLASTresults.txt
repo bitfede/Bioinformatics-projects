@@ -1,4 +1,35 @@
-HUMAN GENE:     NRASMOUSE ID:			 gi|111154109|ref|NP_035067.2| GTPase NRas precursor [Mus musculus] >gi|568922041|ref|XP_006501183.1| PREDICTED: GTPase NRas isoform X2 [Mus musculus] >gi|568922043|ref|XP_006501184.1| PREDICTED: GTPase NRas isoform X2 [Mus musculus] >gi|568922045|ref|XP_006501185.1| PREDICTED: GTPase NRas isoform X2 [Mus musculus] >gi|568922047|ref|XP_006501186.1| PREDICTED: GTPase NRas isoform X2 [Mus musculus]E-value:        2.50207e-142BITSCORE:       427.863----------------------------------
-HUMAN GENE:     NRASMOUSE ID:			 gi|568922037|ref|XP_006501181.1| PREDICTED: GTPase NRas isoform X1 [Mus musculus] >gi|568922039|ref|XP_006501182.1| PREDICTED: GTPase NRas isoform X1 [Mus musculus]E-value:        2.71755e-141BITSCORE:       427.863----------------------------------
-HUMAN GENE:     SFRS4MOUSE ID:			 gi|165377173|ref|NP_065612.2| serine/arginine-rich splicing factor 4 [Mus musculus]E-value:        0.0BITSCORE:       577.808----------------------------------
-HUMAN GENE:     GABRG2MOUSE ID:			 gi|444741657|ref|NP_803127.3| gamma-aminobutyric acid receptor subunit gamma-2 isoform 2 precursor [Mus musculus]E-value:        0.0BITSCORE:       1054.37----------------------------------
+HUMAN GENE:     NRAS
+MOUSE ID:			 gi|111154109|ref|NP_035067.2| GTPase NRas precursor [Mus musculus] >gi|568922041|ref|XP_006501183.1| PREDICTED: GTPase NRas isoform X2 [Mus musculus] >gi|568922043|ref|XP_006501184.1| PREDICTED: GTPase NRas isoform X2 [Mus musculus] >gi|568922045|ref|XP_006501185.1| PREDICTED: GTPase NRas isoform X2 [Mus musculus] >gi|568922047|ref|XP_006501186.1| PREDICTED: GTPase NRas isoform X2 [Mus musculus]
+E-value:        2.50207e-142
+BITSCORE:       427.863
+----------------------------------
+HUMAN GENE:     NRAS
+MOUSE ID:			 gi|568922037|ref|XP_006501181.1| PREDICTED: GTPase NRas isoform X1 [Mus musculus] >gi|568922039|ref|XP_006501182.1| PREDICTED: GTPase NRas isoform X1 [Mus musculus]
+E-value:        2.71755e-141
+BITSCORE:       427.863
+----------------------------------
+HUMAN GENE:     HRAS
+MOUSE ID:			 gi|4885425|ref|NP_005334.1| GTPase HRas isoform 1 [Homo sapiens] >gi|194363762|ref|NP_001123914.1| GTPase HRas isoform 1 [Homo sapiens] >gi|194363764|ref|NP_001123915.1| GTPase HRas isoform 1 [Mus musculus] >gi|194394148|ref|NP_001091711.1| GTPase HRas precursor [Rattus norvegicus] >gi|194394150|ref|NP_001123913.1| GTPase HRas precursor [Rattus norvegicus] >gi|194440734|ref|NP_032310.2| GTPase HRas isoform 1 [Mus musculus] >gi|388454300|ref|NP_001253350.1| GTPase HRas [Macaca mulatta] >gi|296219126|ref|XP_002755736.1| PREDICTED: GTPase HRas isoform X1 [Callithrix jacchus] >gi|297687752|ref|XP_002821367.1| PREDICTED: GTPase HRas [Pongo abelii] >gi|524919987|ref|XP_005064275.1| PREDICTED: GTPase HRas [Mesocricetus auratus] >gi|532015585|ref|XP_005351557.1| PREDICTED: GTPase HRas [Microtus ochrogaster] >gi|532114004|ref|XP_005341674.1| PREDICTED: GTPase HRas isoform X2 [Ictidomys tridecemlineatus] >gi|544483350|ref|XP_005576789.1| PREDICTED: GTPase HRas isoform X1 [Macaca fascicularis] >gi|589928899|ref|XP_006977267.1| PREDICTED: GTPase HRas [Peromyscus maniculatus bairdii] >gi|625216348|ref|XP_007648571.1| PREDICTED: GTPase HRas isoform X1 [Cricetulus griseus] >gi|635010941|ref|XP_008016433.1| PREDICTED: GTPase HRas isoform X1 [Chlorocebus sabaeus] >gi|640782541|ref|XP_008046914.1| PREDICTED: GTPase HRas isoform X5 [Carlito syrichta] >gi|640782543|ref|XP_008046915.1| PREDICTED: GTPase HRas isoform X5 [Carlito syrichta] >gi|674089268|ref|XP_008852607.1| PREDICTED: GTPase HRas isoform X1 [Nannospalax galili] >gi|675683864|ref|XP_008975852.1| PREDICTED: GTPase HRas isoform X1 [Pan paniscus] >gi|675704084|ref|XP_009007028.1| PREDICTED: GTPase HRas isoform X1 [Callithrix jacchus] >gi|685584224|ref|XP_009183458.1| PREDICTED: GTPase HRas isoform X1 [Papio anubis] >gi|724796293|ref|XP_010352136.1| PREDICTED: GTPase HRas isoform X1 [Rhinopithecus roxellana] >gi|725605795|ref|XP_010329501.1| PREDICTED: GTPase HRas isoform X1 [Saimiri boliviensis boliviensis] >gi|731251582|ref|XP_010638626.1| PREDICTED: GTPase HRas [Fukomys damarensis] >gi|731251584|ref|XP_010638628.1| PREDICTED: GTPase HRas [Fukomys damarensis] >gi|755523867|ref|XP_006536222.2| PREDICTED: GTPase HRas isoform X1 [Mus musculus] >gi|795208275|ref|XP_011849201.1| PREDICTED: GTPase HRas isoform X1 [Mandrillus leucophaeus] >gi|795208282|ref|XP_011849202.1| PREDICTED: GTPase HRas isoform X1 [Mandrillus leucophaeus] >gi|795357007|ref|XP_011785378.1| PREDICTED: GTPase HRas isoform X1 [Colobus angolensis palliatus] >gi|795357013|ref|XP_011785379.1| PREDICTED: GTPase HRas isoform X1 [Colobus angolensis palliatus] >gi|795430532|ref|XP_011760577.1| PREDICTED: GTPase HRas isoform X1 [Macaca nemestrina] >gi|795498502|ref|XP_011896347.1| PREDICTED: GTPase HRas isoform X2 [Cercocebus atys] >gi|817282643|ref|XP_012311497.1| PREDICTED: GTPase HRas isoform X1 [Aotus nancymaae] >gi|817282645|ref|XP_012311498.1| PREDICTED: GTPase HRas isoform X1 [Aotus nancymaae] >gi|852798792|ref|XP_012888857.1| PREDICTED: GTPase HRas isoform X2 [Dipodomys ordii] >gi|852798795|ref|XP_012888858.1| PREDICTED: GTPase HRas isoform X2 [Dipodomys ordii] >gi|966983023|ref|XP_014968663.1| PREDICTED: GTPase HRas isoform X1 [Macaca mulatta] >gi|984133833|ref|XP_015358890.1| PREDICTED: GTPase HRas isoform X2 [Marmota marmota marmota] >gi|1032930122|ref|XP_016820822.1| PREDICTED: GTPase HRas isoform X3 [Cricetulus griseus] >gi|1034085846|ref|XP_016775457.1| PREDICTED: GTPase HRas isoform X1 [Pan troglodytes] >gi|1034085848|ref|XP_009457906.2| PREDICTED: GTPase HRas isoform X1 [Pan troglodytes] >gi|1044423758|ref|XP_017363369.1| PREDICTED: GTPase HRas isoform X1 [Cebus capucinus imitator] >gi|1044423760|ref|XP_017363370.1| PREDICTED: GTPase HRas isoform X1 [Cebus capucinus imitator] >gi|1044423762|ref|XP_017363371.1| PREDICTED: GTPase HRas isoform X1 [Cebus capucinus imitator] >gi|1059186575|ref|XP_017749507.1| PREDICTED: GTPase HRas isoform X1 [Rhinopithecus bieti] >gi|1059186577|ref|XP_017749508.1| PREDICTED: GTPase HRas isoform X1 [Rhinopithecus bieti] >gi|1059186579|ref|XP_017749509.1| PREDICTED: GTPase HRas isoform X1 [Rhinopithecus bieti] >gi|1060530879|ref|XP_017803605.1| PREDICTED: GTPase HRas isoform X1 [Papio anubis] >gi|1060530881|ref|XP_017803606.1| PREDICTED: GTPase HRas isoform X1 [Papio anubis]
+E-value:        3.1069e-143
+BITSCORE:       430.128
+----------------------------------
+HUMAN GENE:     SLC30A10
+MOUSE ID:			 gi|84794621|ref|NP_001028458.1| zinc transporter 10 [Mus musculus]
+E-value:        0.0
+BITSCORE:       805.217
+----------------------------------
+HUMAN GENE:     SFRS4
+MOUSE ID:			 gi|165377173|ref|NP_065612.2| serine/arginine-rich splicing factor 4 [Mus musculus]
+E-value:        0.0
+BITSCORE:       577.808
+----------------------------------
+HUMAN GENE:     GABRG2
+MOUSE ID:			 gi|444741657|ref|NP_803127.3| gamma-aminobutyric acid receptor subunit gamma-2 isoform 2 precursor [Mus musculus]
+E-value:        0.0
+BITSCORE:       1054.37
+----------------------------------
+HUMAN GENE:     PCDH1
+MOUSE ID:			 gi|34328319|ref|NP_083633.2| protocadherin-1 precursor [Mus musculus]
+E-value:        0.0
+BITSCORE:       2243.96
+----------------------------------
