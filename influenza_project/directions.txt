@@ -1,0 +1,8 @@
+Download the files Influenza_inf_expr.txt that hold over 20 samples of expression profiles of human genes in human HBE cells that are infected by the Influenza H1N1 virus. In the second file and Influenza_control_expr.txt you will find control samples of cells that are not infected. Both files hold gene names in the first column and expression gene expression values of the corresponding genes in the underlying samples.
+
+Write a python code that:
+
+1. allows you to find genes that are differentially overexpressed in the infectecd case using a t-test (Here you find a python code that allows you to run a t-test).
+2. You need to also calculate a P-value and implement a multiple testing method to correct the P-value.
+3. As a deliverable you need to submit your python code and a list of differentially over-expressed genes with corrected P-value < 0.01.
+The assignment is due by midnight Friday Dec. 9th.
